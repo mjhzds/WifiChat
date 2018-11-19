@@ -7,7 +7,9 @@ import java.net.InetSocketAddress
 import java.net.Socket
 
 
-class MessageTransferService(val name: String) : IntentService(name) {
+class MessageTransferService(val name: String): IntentService(name) {
+
+  constructor(): this("MessageTransferService")
 
   companion object {
     val ACTION_SEND_MESSAGE = "com.example.android.wifidirect.SEND_MESSAGE"

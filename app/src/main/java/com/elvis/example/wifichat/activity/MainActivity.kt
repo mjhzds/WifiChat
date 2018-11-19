@@ -1,20 +1,17 @@
 package com.elvis.example.wifichat.activity
 
-import android.Manifest
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.IntentFilter
 import android.net.wifi.p2p.WifiP2pManager
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.util.Log.d
 import android.view.View
 import com.elvis.example.wifichat.R
 import com.elvis.example.wifichat.receiver.WiFiDirectBroadcastReceiver
 import com.elvis.example.wifichat.utils.PermissionHelper
 import com.elvis.example.wifichat.utils.PermissionInterface
-import com.github.dfqin.grantor.PermissionListener
-import com.github.dfqin.grantor.PermissionsUtil
 
 class MainActivity : AppCompatActivity(), PermissionInterface {
 

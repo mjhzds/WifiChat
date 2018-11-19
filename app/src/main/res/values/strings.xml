@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">WifiChat</string>
+    <string name="username_cannot_be_empty">用户名不能为空！</string>
+    <string name="password_cannot_be_empty">密码不能为空！</string>
+    <string name="login_failed">登录失败！</string>
+    <string name="connect_failed">连接不到服务器！</string>
+    <string name="confirm_password_cannot_be_empty">确认密码不能为空！</string>
+    <string name="password_not_equal">两次输入的密码不一致！</string>
+    <string name="registered_successfully">注册成功！</string>
+    <string name="registered_failed">注册失败！</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+  <string name="other">其他</string>
+    <string name="search">发现</string>
+    <string name="chat">会话</string>
+  <string name="connect">连接</string>
+  <string name="concel">取消选择</string>
+  <string name="reverse_select">反选</string>
+  <string name="label_me">Me</string>
+  <string name="send">发送</string>
+  <string name="please_input">请输入内容</string>
+</resources>
